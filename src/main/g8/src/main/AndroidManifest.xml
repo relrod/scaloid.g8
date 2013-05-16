@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="$package$">
+  <application
+    android:icon="@android:drawable/btn_star_big_on"
+    android:label="Hello"
+    android:debuggable="true">
+
+    <activity android:label="Hello" android:name=".MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+  <uses-sdk android:minSdkVersion="$androidapi$"/>
+</manifest>
